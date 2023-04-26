@@ -15,6 +15,7 @@ public class DemoAutomation {
 		driver.get("http://www.google.co.in");
 		WebElement click = driver.findElement(By.name("q"));
 		click.sendKeys("Agni"+Keys.ENTER);
+		//adding code
 
 	}
 
